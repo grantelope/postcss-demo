@@ -10,6 +10,6 @@ module.exports = {
       require('postcss-svgo'),
       require('postcss-nested'),
       require('autoprefixer'),
-      // require('cssnano')
+      require('cssnano')
     ],
   };
