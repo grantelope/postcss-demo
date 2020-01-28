@@ -1,5 +1,5 @@
 {
-  "name": "postcss",
+  "name": "postcss-demo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,6 +11,7 @@
     "react-scripts": "3.3.0"
   },
   "scripts": {
+    "css": "postcss src/styles/main.css -o src/index.css",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -30,5 +31,19 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.7.4",
+    "cssnano": "^4.1.10",
+    "postcss": "^7.0.26",
+    "postcss-cli": "^7.1.0",
+    "postcss-import": "^12.0.1",
+    "postcss-inline-svg": "^4.1.0",
+    "postcss-loader": "^3.0.0",
+    "postcss-nested": "^4.2.1",
+    "postcss-preset-env": "^6.7.0",
+    "postcss-svg": "^3.0.0",
+    "postcss-svgo": "^4.0.2",
+    "postcss-url": "^8.0.0"
   }
 }
